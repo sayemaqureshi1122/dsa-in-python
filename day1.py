@@ -81,15 +81,24 @@
 # to_string = str(n)
 # print(len(to_string))
 
-n = int(input())
-n = abs(n)
-if n == 0:
-    print(1) 
-else:  
-    count = 0
-    while (n > 0):
-        n= n//10
-        count += 1
-    print(count)
+# n = int(input())
+# n = abs(n)
+# if n == 0:
+#     print(1) 
+# else:  
+#     count = 0
+#     while (n > 0):
+#         n= n//10
+#         count += 1
+#     print(count)
 
-
+# #Q2239 leetcode   // try this again
+# nums = list(map(int, input().split()))
+# closest_num = nums[0]
+# for i in nums:
+#     if abs(i) < abs(closest_num):
+#         closest_num = i
+# if closest_num < 0 and abs(closest_num) in nums:
+#     print(abs(closest_num))
+# else:
+#     print(closest_num)
